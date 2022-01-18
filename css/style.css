@@ -93,7 +93,7 @@ body {
 .header__top-logo {
   padding-top: 20px;
   margin-right: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 .hero {
@@ -123,8 +123,7 @@ body {
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
-
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .header__botton {
@@ -135,12 +134,17 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
-  padding-bottom: 70px;
+  padding-bottom: 60px;
 }
-/* 
 
+.page {
+  background-color: yellow;
+}
 
+.page__contact {
+  background-color: yellowgreen;
+}
 
-
-
- */
+.page__list {
+  background-color: wheat;
+}
