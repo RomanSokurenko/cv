@@ -71,11 +71,76 @@ address {
 }
 
 body {
+  font-family: "Open Sans", sans-serif;
   background-image: url(../images/background.jpg);
 }
 
 .container {
-  max-width: 1200px;
-  padding: 0 15px;
+  max-width: 1400px;
+  padding: 0 50px;
   margin: 0 auto;
+  background-color: white;
 }
+
+.header {
+  padding-top: 100px;
+}
+
+.header__top {
+  display: flex;
+}
+
+.header__top-logo {
+  padding-top: 20px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.hero {
+  margin-top: 40px;
+}
+
+.header__top-title {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  margin-bottom: 30px;
+}
+
+.header__top-title--bold {
+  font-weight: 600;
+}
+
+.header__top-text {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.header__botton-title {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+
+  margin-bottom: 50px;
+}
+
+.header__botton {
+  padding-left: 35px;
+}
+
+.header__botton-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  padding-bottom: 70px;
+}
+/* 
+
+
+
+
+
+ */
