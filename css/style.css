@@ -73,6 +73,7 @@ address {
 body {
   font-family: "Open Sans", sans-serif;
   background-image: url(../images/background.jpg);
+  color: #48494b;
 }
 
 .container {
@@ -137,11 +138,18 @@ body {
   padding-bottom: 60px;
 }
 
-/* .page {
+.information {
+  margin-bottom: 100px;
 }
 
-.page__contact {
-} */
+.information__list {
+  padding-bottom: 50px;
+}
+
+.page {
+  margin-right: 300px;
+}
+
 .page__contact {
   padding-left: 50px;
   position: relative;
@@ -205,12 +213,9 @@ body {
 
 .information__list {
   display: flex;
-  justify-content: space-between;
-  border-top: 2px solid rgb(34, 27, 27);
-}
+  justify-content: flex-start;
 
-.aboutMe {
-  border-left: 2px solid rgb(34, 27, 27);
+  border-top: 2px solid rgb(34, 27, 27);
 }
 
 .title {
@@ -221,6 +226,67 @@ body {
   line-height: 29px;
   color: rgb(27, 22, 22);
 }
-/* .information {
+
+.skills__item {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+
+.reference__review {
   display: flex;
-} */
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.reference__review-name {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.reference__review-position {
+  margin-bottom: 10px;
+}
+
+.aboutMe {
+  border-left: 2px solid rgb(34, 27, 27);
+  padding-left: 30px;
+}
+
+.aboutMe__company {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+
+.aboutMe__data {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+
+.aboutMe__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 30px;
+}
+
+.aboutMe__list {
+  margin-bottom: 70px;
+}
+
+.aboutMe__item {
+  margin-bottom: 15px;
+}
+
+.aboutMe__item-text {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
