@@ -154,12 +154,19 @@ body {
 .page__contact {
   padding-left: 60px;
   position: relative;
+  max-width: 360px;
 }
 
 .page__contact-link {
   font-weight: 400;
   font-size: 20px;
-  line-height: 27px;
+  line-height: 25px;
+  transition: all 1s;
+}
+
+.page__contact-link:hover {
+  color: #3309cc;
+  font-size: 22px;
 }
 
 .page__contact-title {
