@@ -262,6 +262,7 @@ body {
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
+  max-width: 190px;
 }
 .reference__review-name {
   font-weight: 400;
@@ -274,6 +275,11 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
+}
+
+.reference__review-hov:hover {
+  color: #3309cc;
+  background-color: burlywood;
 }
 
 .aboutMe {
@@ -293,6 +299,11 @@ body {
   font-size: 18px;
   line-height: 27px;
   margin-bottom: 10px;
+}
+
+.aboutMe__item-link:hover {
+  color: #3309cc;
+  background-color: burlywood;
 }
 
 .aboutMe__text {
