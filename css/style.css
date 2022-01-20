@@ -121,9 +121,10 @@ body {
 
 .header__botton-title {
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 24px;
   line-height: 29px;
+  letter-spacing: 0.2rem;
   margin-bottom: 30px;
 }
 
@@ -151,13 +152,19 @@ body {
 }
 
 .page__contact {
-  padding-left: 50px;
+  padding-left: 60px;
   position: relative;
+}
+
+.page__contact-link {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
 }
 
 .page__contact-title {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 27px;
   position: relative;
   margin-bottom: 5px;
@@ -167,40 +174,40 @@ body {
 .page__contact-title--loc::after {
   content: "";
   position: absolute;
-  background-image: url(../icon/location.svg);
+  background-image: url(../icon/location.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #ce993d;
-  width: 35px;
-  height: 35px;
-  left: -47px;
-  top: 10px;
+  width: 50px;
+  height: 50px;
+  left: -59px;
+  top: 5px;
 }
 
 .page__contact-title--tel::after {
   content: "";
   position: absolute;
-  background-image: url(../icon/mobile.svg);
+  background-image: url(../icon/mobile.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #ce993d;
-  width: 35px;
-  height: 35px;
-  left: -47px;
-  top: 10px;
+  width: 50px;
+  height: 50px;
+  left: -59px;
+  top: 5px;
 }
 
 .page__contact-title--email::after {
   content: "";
   position: absolute;
-  background-image: url(../icon/mail4svg.svg);
+  background-image: url(../icon/mail.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #ce993d;
-  width: 35px;
-  height: 35px;
-  left: -47px;
-  top: 10px;
+  width: 50px;
+  height: 50px;
+  left: -59px;
+  top: 5px;
 }
 
 .page__list {
@@ -214,24 +221,34 @@ body {
 .information__list {
   display: flex;
   justify-content: flex-start;
-
   border-top: 2px solid rgb(34, 27, 27);
 }
 
 .title {
   margin: 50px 0 30px;
   text-transform: uppercase;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 29px;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
   color: rgb(27, 22, 22);
 }
 
 .skills__item {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 27px;
   margin-bottom: 10px;
+  position: relative;
+  margin-left: 65px;
+}
+
+.skills__item::after {
+  content: "";
+  position: absolute;
+  left: -60px;
+  top: 13px;
+  width: 28px;
+  border-bottom: 3px solid #000;
 }
 
 .reference__review {
@@ -241,13 +258,15 @@ body {
 }
 .reference__review-name {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 30px;
-  margin-bottom: 10px;
 }
 
 .reference__review-position {
   margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .aboutMe {
@@ -282,6 +301,9 @@ body {
 
 .aboutMe__item {
   margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .aboutMe__item-text {
@@ -289,4 +311,19 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
+}
+
+.information__color {
+  background-color: #d09b3a;
+  max-width: 1400px;
+  height: 20px;
+  margin: auto;
+  /* max-width: 1400px; */
+}
+
+.information__color-botton {
+  background-color: #3e3e40;
+  max-width: 1400px;
+  height: 35px;
+  margin: auto;
 }
