@@ -333,11 +333,14 @@ body {
 /* DESKTOP*/
 
 @media (max-width: 1024px) {
+  .page {
+    margin-right: 20px;
+  }
 }
 
 /* TABLET */
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .header__top-title {
     font-size: 40px;
   }
@@ -361,6 +364,20 @@ body {
   .header__botton-title {
     text-align: center;
   }
+
+  .page {
+    margin-right: 13px;
+  }
+}
+
+@media (max-width: 645px) {
+  .information__list {
+    display: block;
+  }
+
+  .page__contact-link {
+    font-size: 16px;
+  }
 }
 
 /* MOBILE    */
@@ -371,6 +388,22 @@ body {
   }
 
   .header__botton {
+    padding: 0;
+  }
+
+  .page__contact-title--loc::after {
+    display: none;
+  }
+
+  .page__contact-title--tel::after {
+    display: none;
+  }
+
+  .page__contact-title--email::after {
+    display: none;
+  }
+
+  .page__contact {
     padding: 0;
   }
 }
