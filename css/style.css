@@ -94,7 +94,7 @@ body {
 }
 
 .header__top-logo {
-  padding-top: 20px;
+  width: 150px;
   margin-right: 50px;
   margin-bottom: 80px;
 }
@@ -104,11 +104,12 @@ body {
 }
 
 .header__top-title {
+  margin-top: 80px;
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 48px;
+  font-size: 40px;
   line-height: 58px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .header__top-title--bold {
@@ -131,14 +132,14 @@ body {
 }
 
 .header__botton {
-  padding-left: 35px;
+  /* padding-left: 35px; */
 }
 
 .header__botton-text {
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 .information {
@@ -186,7 +187,7 @@ body {
   background-image: url(../icon/location.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #ce993d;
+  /* background-color: #ce993d; */
   width: 50px;
   height: 50px;
   left: -59px;
@@ -199,7 +200,7 @@ body {
   background-image: url(../icon/mobile.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #ce993d;
+  /* background-color: #ce993d; */
   width: 50px;
   height: 50px;
   left: -59px;
@@ -212,7 +213,7 @@ body {
   background-image: url(../icon/mail.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #ce993d;
+  /* background-color: #ce993d; */
   width: 50px;
   height: 50px;
   left: -59px;
@@ -222,10 +223,6 @@ body {
 .page__list {
   background-color: wheat;
 }
-
-/* .page__contact-link {
-  background-color: salmon;
-} */
 
 .information__list {
   display: flex;
@@ -303,6 +300,11 @@ body {
   margin-bottom: 10px;
 }
 
+.aboutMe__item-link {
+  margin-bottom: 60px;
+  max-width: 210px;
+}
+
 .aboutMe__item-link:hover {
   color: #3309cc;
   background-color: burlywood;
@@ -321,24 +323,30 @@ body {
 
 .aboutMe__item {
   margin-bottom: 15px;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 18px;
   line-height: 30px;
 }
 
 .aboutMe__item-text {
+  display: none;
+}
+/* .aboutMe__item-text {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #3309cc;
   margin-top: 15px;
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
-}
+} */
 
 .information__color {
   background-color: #d09b3a;
   max-width: 1400px;
   height: 20px;
   margin: auto;
-  /* max-width: 1400px; */
 }
 
 .information__color-botton {
