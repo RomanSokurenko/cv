@@ -131,10 +131,6 @@ body {
   margin-bottom: 30px;
 }
 
-.header__botton {
-  /* padding-left: 35px; */
-}
-
 .header__botton-text {
   font-weight: 400;
   font-size: 18px;
@@ -155,6 +151,8 @@ body {
 }
 
 .page__contact {
+  display: flex;
+  flex-direction: column;
   padding-left: 60px;
   position: relative;
   max-width: 360px;
@@ -187,7 +185,6 @@ body {
   background-image: url(../icon/location.png);
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-color: #ce993d; */
   width: 50px;
   height: 50px;
   left: -59px;
@@ -200,7 +197,6 @@ body {
   background-image: url(../icon/mobile.png);
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-color: #ce993d; */
   width: 50px;
   height: 50px;
   left: -59px;
@@ -213,7 +209,6 @@ body {
   background-image: url(../icon/mail.png);
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-color: #ce993d; */
   width: 50px;
   height: 50px;
   left: -59px;
@@ -237,6 +232,10 @@ body {
   font-size: 30px;
   line-height: 30px;
   color: rgb(27, 22, 22);
+}
+
+.skills {
+  max-width: 300px;
 }
 
 .skills__item {
@@ -302,12 +301,11 @@ body {
 
 .aboutMe__item-link {
   margin-bottom: 60px;
-  max-width: 210px;
+  transition: all 1s;
 }
 
 .aboutMe__item-link:hover {
-  color: #3309cc;
-  background-color: burlywood;
+  color: #cc0929;
 }
 
 .aboutMe__text {
@@ -327,20 +325,6 @@ body {
   font-size: 18px;
   line-height: 30px;
 }
-
-.aboutMe__item-text {
-  display: none;
-}
-/* .aboutMe__item-text {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: #3309cc;
-  margin-top: 15px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
-} */
 
 .information__color {
   background-color: #d09b3a;
